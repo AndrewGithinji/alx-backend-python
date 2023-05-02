@@ -10,7 +10,7 @@ wait_random = __import__('0-basic_async_syntax').wait_random
 
 async def wait_n(n: int, max_delay: int) -> List[float]:
     """
-    Wait for n random delays between 0 and max_delay seconds (inclusive).
+    Wait for n random delays between 0 and max_delay seconds.
     Return a sorted list of the amount of time waited for each delay.
     """
 
